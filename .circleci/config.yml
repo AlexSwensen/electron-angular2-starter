@@ -8,6 +8,10 @@ jobs:
         - image: circleci/node:6.11.0-browsers
           environment:
             TZ: "/usr/share/zoneinfo/America/Chicago" # Set the timezone to Central
+
+        - image: circleci/node:8.2.0-browsers
+          environment:
+            TZ: "/usr/share/zoneinfo/America/Chicago" # Set the timezone to Central
       steps:
         - checkout
 #        - run:

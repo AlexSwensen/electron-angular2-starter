@@ -1,5 +1,7 @@
 # ElectronAngular2Starter
 
+[![CircleCI](https://circleci.com/gh/AlexSwensen/electron-angular2-starter/tree/master.svg?style=shield&circle-token=039a5e5b5cb37f918e18696fe9e237cb5fccd4d3)](https://circleci.com/gh/AlexSwensen/electron-angular2-starter/tree/master)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
 ## Development server

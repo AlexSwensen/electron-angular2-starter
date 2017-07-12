@@ -21,12 +21,12 @@ jobs:
             name: install-angular-cli
             command: sudo npm install -g @angular/cli
         - restore_cache:
-              key: node-6-dependency-cache-{{ .Branch }}-{{ checksum "package.json" }}
+              key: node-8-dependency-cache-{{ .Branch }}-{{ checksum "package.json" }}
         - run:
             name: install-npm-dependencies
             command: npm install
         - save_cache:
-            key: node-6-dependency-cache-{{ .Branch }}-{{ checksum "package.json" }}
+            key: node-8-dependency-cache-{{ .Branch }}-{{ checksum "package.json" }}
             paths:
               - ./node_modules
 #        - run:
